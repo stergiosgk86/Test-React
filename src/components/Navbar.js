@@ -1,5 +1,4 @@
 import React from "react";
-import "../App.css";
 import worldwide from "../images/worldwide.png";
 import logo from "../images/logo-black.png";
 import search from "../images/magnifying-glass.png";
