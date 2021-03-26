@@ -7,3 +7,44 @@
   background-image: url(./images/h1-top-header-line-img-1.jpg);
   height: 4px;
 }
+
+.create-glass-bg {
+  background-image: url(./images/main-banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 540px;
+}
+
+.offers-main-bg {
+  background-image: url(./images/yellow-PrintShop.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 540px;
+}
+
+.offers-col-bg {
+  background-image: url(./images/image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 540px;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 48px !important;
+}
+
+p {
+  font-size: 14px !important;
+}
+
+.paragraph-width {
+  max-width: 82%;
+}
+
+.btn-yellow {
+  background-color: rgba(245, 237, 35);
+}

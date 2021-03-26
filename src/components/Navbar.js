@@ -8,10 +8,9 @@ import cart from "../images/shopping-carrt.png";
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="">
       <div className="text-white top-header d-flex align-items-center justify-content-center">
-        <div className="col-1"></div>
-        <div className="d-flex col">
+        <div className="d-flex offset-md-1 col">
           <div className="language-icon">
             <img src={worldwide} style={{ width: "22px" }} alt="" />
           </div>
@@ -21,11 +20,10 @@ const Navbar = () => {
       <div className="top-header-line py-0"></div>
 
       <nav
-        className="navbar navbar-expand-lg navbar-light bg-light"
-        style={{ minHeight: "100px" }}
+        className="navbar navbar-expand-xl navbar-light bg-light"
+        style={{ minHeight: "95px" }}
       >
-        <div className="col-1"></div>
-        <a className="navbar-brand" href="#">
+        <a className="navbar-brand offset-md-1" href="#">
           <img className="" src={logo} alt="" />
         </a>
         <button
