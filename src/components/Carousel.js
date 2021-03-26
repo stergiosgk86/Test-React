@@ -31,28 +31,33 @@ const Carousel = () => {
               <li
                 data-target="#blogCarousel"
                 data-slide-to="0"
-                className="active"
+                className="active mr-3"
               ></li>
               <li
                 data-target="#blogCarousel"
                 data-slide-to="1"
+                className="mr-3"
               ></li>
-              <li
-                data-target="#blogCarousel"
-                data-slide-to="2"
-              ></li>
+              <li data-target="#blogCarousel" data-slide-to="2"></li>
             </ol>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                  <div className="row no-gutters">
-                    <div className="col-md-3"><img className="" src={product1} alt="First slide" /></div>
-                    <div className="col-md-3"><img className="" src={product2} alt="Second slide" /></div>
-                    <div className="col-md-3"><img className="" src={product3} alt="Third slide" /></div>
-                    <div className="col-md-3"><img className="" src={product4} alt="Fourth slide" /></div>
+                <div className="row no-gutters">
+                  <div className="col-md-3">
+                    <img className="" src={product1} alt="First slide" />
+                  </div>
+                  <div className="col-md-3">
+                    <img className="" src={product2} alt="Second slide" />
+                  </div>
+                  <div className="col-md-3">
+                    <img className="" src={product3} alt="Third slide" />
+                  </div>
+                  <div className="col-md-3">
+                    <img className="" src={product4} alt="Fourth slide" />
+                  </div>
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
       </div>

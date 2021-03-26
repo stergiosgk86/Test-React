@@ -49,19 +49,19 @@ p {
   background-color: rgba(245, 237, 35);
 }
 
-.blog .carousel-indicators {
+.carousel-indicators li {
+  background-color: #a3a3a3;
+  border-radius: 100%;
+  width: 13px;
+  height: 13px;
+}
+
+.carousel-indicators {
   left: 0;
   top: auto;
   bottom: -80px;
 }
 
-.blog .carousel-indicators li {
-  background: #a3a3a3;
-  border-radius: 50% !important;
-  width: 8px !important;
-  height: 8px !important;
-}
-
-.blog .carousel-indicators .active {
-  background: #707070;
+.carousel-indicators .active {
+  background-color: black;
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Category = ({ image, description, title }) => {
   return (
@@ -8,7 +8,7 @@ const Category = ({ image, description, title }) => {
         backgroundImage: `url(${image})`,
         backgroundPosition: "center center",
         backgroundRepeat: "no-repeat",
-        backgroundSize: "cover"
+        backgroundSize: "cover",
       }}
     >
       <div className="pl-5 pb-4">
@@ -20,20 +20,3 @@ const Category = ({ image, description, title }) => {
 };
 
 export default Category;
-
-
-// return (
-//     <div className="container-fluid px-0 pt-5">
-//       <div className="container-fluid px-0 pt-5">
-//         <div className="row no-gutters">
-//           {categories.map((category) => (
-//             <Category
-//               image={category.image}
-//               description={category.description}
-//               title={category.title}
-//             />
-//           ))}
-//         </div>
-//       </div>
-//     </div>
-//   );
