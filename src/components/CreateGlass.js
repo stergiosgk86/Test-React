@@ -5,7 +5,7 @@ const CreateGlass = () => {
     <div className="container-fluid p-0">
       <div className="row no-gutters">
         <div className="col-md-12 create-glass-bg align-items-center d-flex">
-          <div className="col-md-6 row h-75">
+          <div className="col-md-6 row ">
             <div className="col-md-11 offset-md-2 d-flex flex-column">
               <h1
                 className="text-uppercase font-weight-bold pt-4 mt-1"

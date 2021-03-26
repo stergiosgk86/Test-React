@@ -5,7 +5,7 @@ const Offers = () => {
     <div className="container-fluid">
       <div className="row">
         <div className="col-md-12 offers-main-bg row d-flex align-items-center">
-          <div className="col-md-6 row h-75">
+          <div className="col-md-6 row">
             <div className="col-md offset-md-2 d-flex flex-column justify-content-around">
               <h1
                 className="text-uppercase font-weight-bold pt-4 mt-1"
