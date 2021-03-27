@@ -65,3 +65,13 @@ p {
 .carousel-indicators .active {
   background-color: black;
 }
+
+.link-unstyled {
+  color: #c5c4c4;
+  text-decoration: none;
+}
+
+.link-unstyled:hover {
+  color: white;
+  text-decoration: none;
+}

@@ -37,7 +37,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className="collapse navbar-collapse justify-content-center m-auto"
+          className="collapse navbar-collapse pl-4"
           id="navbarSupportedContent"
         >
           <ul
@@ -87,7 +87,6 @@ const Navbar = () => {
             </div>
           </ul>
         </div>
-        <div className="col-md-1"></div>
       </nav>
     </div>
   );

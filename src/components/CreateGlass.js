@@ -27,7 +27,7 @@ const CreateGlass = () => {
                     φτιαξε το δικο σου
                   </button>
                 </div>
-                <div className="">
+                <div className="pb-2">
                   <button className="btn btn-outline-light text-uppercase font-weight-bold px-5 py-2">
                     για επαγγελματιες
                   </button>

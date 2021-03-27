@@ -1,10 +1,10 @@
-import React from "react";
-import product1 from "../images/product-1.jpg";
-import product2 from "../images/product-2.jpg";
-import product3 from "../images/product-3.jpg";
-import product4 from "../images/product-4.jpg";
+import React, { useState } from "react";
+import { carouselData } from "./DummyData";
+import CarouselItem from "./CarouselItem";
 
 const Carousel = () => {
+  const [carouselItems] = useState(carouselData);
+
   return (
     <div>
       <div className="container text-center">
@@ -43,18 +43,16 @@ const Carousel = () => {
             <div className="carousel-inner">
               <div className="carousel-item active">
                 <div className="row no-gutters">
-                  <div className="col-md-3">
-                    <img className="" src={product1} alt="First slide" />
-                  </div>
-                  <div className="col-md-3">
-                    <img className="" src={product2} alt="Second slide" />
-                  </div>
-                  <div className="col-md-3">
-                    <img className="" src={product3} alt="Third slide" />
-                  </div>
-                  <div className="col-md-3">
-                    <img className="" src={product4} alt="Fourth slide" />
-                  </div>
+                  {carouselItems.map((carouselItem) => (
+                    <CarouselItem
+                      key={carouselItem.id}
+                      image={carouselItem.image}
+                      item={carouselItem.item}
+                      category={carouselItem.category}
+                      price={carouselItem.price}
+                      startPrice={carouselItem.startPrice}
+                    />
+                  ))}
                 </div>
               </div>
             </div>

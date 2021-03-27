@@ -4,6 +4,7 @@ import CreateGlass from "./components/CreateGlass";
 import Offers from "./components/Offers";
 import Carousel from "./components/Carousel";
 import Categories from "./components/Categories";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Offers />
       <Carousel />
       <Categories />
+      <Footer />
     </div>
   );
 }
