@@ -5,8 +5,8 @@ const CreateGlass = () => {
     <div className="container-fluid p-0">
       <div className="row no-gutters">
         <div className="col-md-12 create-glass-bg align-items-center d-flex">
-          <div className="col-md-6 row ">
-            <div className="col-md-11 offset-md-2 d-flex flex-column">
+          <div className="col-sm-11 col-xl-6 row text-sm-center text-xl-left">
+            <div className="col-md-11 offset-md-2 d-flex flex-column align-items-sm-center align-items-xl-start">
               <h1
                 className="text-uppercase font-weight-bold pt-4 mt-1"
                 style={{ color: "black" }}
@@ -21,7 +21,7 @@ const CreateGlass = () => {
                 voluptatem sit aliquid nesciunt hic!
               </p>
 
-              <div className="row no-gutters">
+              <div className="row no-gutters justify-content-sm-center justify-content-xl-start">
                 <div className="pr-4 pb-2">
                   <button className="btn text-uppercase btn-yellow font-weight-bold px-5 py-2">
                     φτιαξε το δικο σου

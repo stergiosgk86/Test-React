@@ -7,9 +7,9 @@ const Footer = () => {
       className="container-fluid row no-gutters p-0"
       style={{ backgroundColor: "black", minHeight: "500px" }}
     >
-      <div className="col-md-6 row no-gutters d-flex align-items-center">
-        <div className="col-md-6 pl-5">
-          <div className="col-md-8">
+      <div className="col-xl-6 row no-gutters d-flex align-items-center text-sm-center text-xl-left">
+        <div className="col-xl-6 pl-5">
+          <div className="col-xl-8">
             <img src={logo} alt="" />
             <p
               className="pt-5 pb-5"
@@ -21,7 +21,7 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="col-md-6">
+        <div className="col-xl-6">
           <h5 className="font-weight-bold text-uppercase text-white pb-2">
             χρησιμα links
           </h5>
@@ -49,9 +49,9 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="col-md-6 row no-gutters">
-        <div className="col-md-6 row no-gutters">
-          <div className="col-md-8 d-flex flex-column justify-content-center">
+      <div className="col-xl-6 row no-gutters text-sm-center text-xl-left">
+        <div className="col-xl-6 row no-gutters">
+          <div className="col-xl-8 d-flex flex-column justify-content-center">
             <h5 className="font-weight-bold text-uppercase text-white pb-2">
               επικοινωνια
             </h5>
@@ -82,7 +82,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="col-md-6 align-items-end justify-content-end d-flex pb-4 pr-4">
+        <div className="col-xl-6 align-items-end justify-content-end d-flex pb-4 pr-4">
           <a className="btn btn-yellow" href="">
             <i className="fas fa-chevron-up"></i>
           </a>

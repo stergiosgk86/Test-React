@@ -7,7 +7,7 @@ const Categories = () => {
 
   return (
     <div className="container-fluid px-0 pt-5">
-      <div className="row no-gutters" style={{ height: "65vw" }}>
+      <div className="row no-gutters" style={{ minHeight: "1280px" }}>
         {categories.map((category) => (
           <Category
             key={category.id}

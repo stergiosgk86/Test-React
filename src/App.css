@@ -59,7 +59,7 @@ p {
 .carousel-indicators {
   left: 0;
   top: auto;
-  bottom: -80px;
+  bottom: -30px;
 }
 
 .carousel-indicators .active {
