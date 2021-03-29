@@ -22,13 +22,14 @@ const MyCarousel = () => {
         </h6>
       </div>
 
-      {/* <div className="row no-gutters col-md-10 offset-md-1"> */}
+      <div className="col-md-10 offset-md-1">
       <Carousel
         responsive={responsive}
         showDots={true}
         arrows={false}
-        autoPlay={true}
+        autoPlay={false}
         infinite={true}
+        itemClass="carousel-item-padding"
       >
         {carouselItems.map((carouselItem) => (
           <CarouselItem
@@ -41,7 +42,7 @@ const MyCarousel = () => {
           />
         ))}
       </Carousel>
-      {/* </div> */}
+      </div>
     </div>
   );
 };

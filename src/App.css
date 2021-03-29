@@ -58,3 +58,7 @@ p {
   color: white;
   text-decoration: none;
 }
+
+.carousel-item-padding {
+  padding: 20px;
+}

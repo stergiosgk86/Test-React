@@ -2,7 +2,7 @@ import React from "react";
 
 const CarouselItem = ({ image, item, category, price, startPrice }) => {
   return (
-    <div className="row no-gutters justify-content-center py-5">
+    <div className="justify-content-center py-5">
       <div className="">
         <img className="w-100" src={image} alt="" />
         <div className="row no-gutters pt-3 text-sm-center text-md-left">
