@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import CreateGlass from "./components/CreateGlass";
 import Offers from "./components/Offers";
-import Carousel from "./components/Carousel";
+import MyCarousel from "./components/MyCarousel";
 import Categories from "./components/Categories";
 import Footer from "./components/Footer";
 
@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <CreateGlass />
       <Offers />
-      <Carousel />
+      <MyCarousel />
       <Categories />
       <Footer />
     </div>
