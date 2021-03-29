@@ -4,12 +4,12 @@
 }
 
 .top-header-line {
-  background-image: url(./images/h1-top-header-line-img-1.jpg);
+  background-image: url(./assets/h1-top-header-line-img-1.jpg);
   height: 4px;
 }
 
 .create-glass-bg {
-  background-image: url(./images/main-banner.jpg);
+  background-image: url(./assets/main-banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,7 @@
 }
 
 .offers-main-bg {
-  background-image: url(./images/yellow-PrintShop.png);
+  background-image: url(./assets/yellow-PrintShop.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,7 +25,7 @@
 }
 
 .offers-col-bg {
-  background-image: url(./images/image.jpg);
+  background-image: url(./assets/image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,13 +1,13 @@
-import category1 from "../images/category-1.jpg";
-import category2 from "../images/category-2.jpg";
-import category3 from "../images/category-3.jpg";
-import category4 from "../images/category-4.jpg";
-import category5 from "../images/category-5.jpg";
-import category6 from "../images/category-6.jpg";
-import product1 from "../images/product-1.jpg";
-import product2 from "../images/product-2.jpg";
-import product3 from "../images/product-3.jpg";
-import product4 from "../images/product-4.jpg";
+import category1 from "../assets/category-1.jpg";
+import category2 from "../assets/category-2.jpg";
+import category3 from "../assets/category-3.jpg";
+import category4 from "../assets/category-4.jpg";
+import category5 from "../assets/category-5.jpg";
+import category6 from "../assets/category-6.jpg";
+import product1 from "../assets/product-1.jpg";
+import product2 from "../assets/product-2.jpg";
+import product3 from "../assets/product-3.jpg";
+import product4 from "../assets/product-4.jpg";
 
 const categoriesData = [
   {
@@ -83,4 +83,23 @@ const carouselData = [
   },
 ];
 
-export { categoriesData, carouselData };
+const responsive = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 4,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+
+export { categoriesData, carouselData, responsive };

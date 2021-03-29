@@ -1,9 +1,10 @@
 import React from "react";
-import worldwide from "../images/worldwide.png";
-import logo from "../images/logo-black.png";
-import search from "../images/magnifying-glass.png";
-import user from "../images/user2.png";
-import cart from "../images/shopping-carrt.png";
+import { NavLink } from "react-router-dom";
+import worldwide from "../assets/worldwide.png";
+import logo from "../assets/logo-black.png";
+import search from "../assets/magnifying-glass.png";
+import user from "../assets/user2.png";
+import cart from "../assets/shopping-carrt.png";
 
 const Navbar = () => {
   return (
@@ -22,9 +23,9 @@ const Navbar = () => {
         className="navbar navbar-expand-xl navbar-light bg-light"
         style={{ minHeight: "95px" }}
       >
-        <a className="navbar-brand offset-md-1" href="#">
-          <img className="" src={logo} alt="" />
-        </a>
+        <NavLink exact to="/" className="navbar-brand offset-md-1">
+          <img src={logo} alt="" />
+        </NavLink>
         <button
           className="navbar-toggler"
           type="button"
@@ -45,34 +46,34 @@ const Navbar = () => {
             style={{ fontSize: "14px" }}
           >
             <li className="nav-item pr-4">
-              <a className="nav-link text-dark" href="#">
+              <NavLink exact to="/" className="nav-link text-dark">
                 δωρα
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item pr-4">
-              <a className="nav-link text-dark" href="#">
+              <NavLink exact to="/" className="nav-link text-dark">
                 εκτυπωσεις ενδυματων
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item pr-4">
-              <a className="nav-link text-dark" href="#">
+              <NavLink exact to="/" className="nav-link text-dark">
                 αυτοκολλητα
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item pr-4">
-              <a className="nav-link text-dark" href="#">
+              <NavLink exact to="/" className="nav-link text-dark">
                 καμβαδες
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item pr-4">
-              <a className="nav-link text-dark" href="#">
+              <NavLink exact to="/" className="nav-link text-dark">
                 κεντηματα ενδυματων
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item pr-4">
-              <a className="nav-link text-dark" href="#">
+              <NavLink exact to="/" className="nav-link text-dark">
                 offset εκτυπωσεις
-              </a>
+              </NavLink>
             </li>
             <div className="buttons d-flex ">
               <li className="btn nav-item pr-4">

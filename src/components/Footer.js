@@ -1,7 +1,12 @@
 import React from "react";
-import logo from "../images/logo-white.png";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo-white.png";
 
 const Footer = () => {
+  const scrollTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
   return (
     <div
       className="container-fluid row no-gutters p-0"
@@ -10,7 +15,9 @@ const Footer = () => {
       <div className="col-xl-6 row no-gutters d-flex align-items-center text-sm-center text-xl-left">
         <div className="col-xl-6 pl-5">
           <div className="col-xl-8">
-            <img src={logo} alt="" />
+            <Link to="/">
+              <img src={logo} alt="" />
+            </Link>
             <p
               className="pt-5 pb-5"
               style={{ color: "#c5c4c4", lineHeight: "30px" }}
@@ -82,10 +89,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="col-xl-6 align-items-end justify-content-end d-flex pb-4 pr-4">
-          <a className="btn btn-yellow" href="">
+        <div
+          className="col-xl-6 align-items-end justify-content-end d-flex pb-4 pr-4"
+          onClick={scrollTop}
+        >
+          <div className="btn btn-yellow">
             <i className="fas fa-chevron-up"></i>
-          </a>
+          </div>
         </div>
       </div>
     </div>
