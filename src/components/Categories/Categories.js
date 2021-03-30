@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { categoriesData } from "./DummyData";
+import { categoriesData } from "../DummyData";
 import Category from "./Category";
 
 const Categories = () => {

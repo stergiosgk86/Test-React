@@ -49,6 +49,10 @@ p {
   background-color: rgba(245, 237, 35);
 }
 
+.btn-yellow:hover {
+  background-color: rgb(179, 173, 27);
+}
+
 .link-unstyled {
   color: #c5c4c4;
   text-decoration: none;

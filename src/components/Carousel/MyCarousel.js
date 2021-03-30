@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { carouselData, responsive } from "./DummyData";
+import { carouselData, responsive } from "../DummyData";
 import CarouselItem from "./CarouselItem";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -23,25 +23,25 @@ const MyCarousel = () => {
       </div>
 
       <div className="col-md-10 offset-md-1">
-      <Carousel
-        responsive={responsive}
-        showDots={true}
-        arrows={false}
-        autoPlay={false}
-        infinite={true}
-        itemClass="carousel-item-padding"
-      >
-        {carouselItems.map((carouselItem) => (
-          <CarouselItem
-            key={carouselItem.id}
-            image={carouselItem.image}
-            item={carouselItem.item}
-            category={carouselItem.category}
-            price={carouselItem.price}
-            startPrice={carouselItem.startPrice}
-          />
-        ))}
-      </Carousel>
+        <Carousel
+          responsive={responsive}
+          showDots={true}
+          arrows={false}
+          autoPlay={true}
+          infinite={true}
+          itemClass="carousel-item-padding"
+        >
+          {carouselItems.map((carouselItem) => (
+            <CarouselItem
+              key={carouselItem.id}
+              image={carouselItem.image}
+              item={carouselItem.item}
+              category={carouselItem.category}
+              price={carouselItem.price}
+              startPrice={carouselItem.startPrice}
+            />
+          ))}
+        </Carousel>
       </div>
     </div>
   );
